@@ -91,6 +91,6 @@ fi
 #
 # Install Python Development Dependencies
 #
-python3 -m pip install --user -e .[dev]
+python -m pip install --ignore-installed pip==21.2.4 --disable-pip-version-check --no-warn-script-location
 
 exit 0
